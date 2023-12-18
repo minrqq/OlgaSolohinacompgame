@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="stylex.css">
+        <title>Реєстрація</title>
+    </head>
+    <body>
+        <script src ="form.js"></script>
+        <header>
+            <nav class="nav">
+                <img class="header__logo" src="materials/logo.png" alt=" ">
+                <a class="nav__link" href="index.html">Головна</a>
+                <a class="nav__link" href="index1.html">Новини</a>
+                <a class="nav__link" href="index2.html">Регіони</a>
+                <a class="nav__link" href="index3.html">Персонажі</a>
+                <input type="button"onclick="window.location.href = 'form.html'" value="Авторизація" class="button">
+            </nav>
+        </header>
+        <div id="rectangle_form">
+            <div>
+                <p class="mainform1">Реєстрація</p>
+            </div>
+            <form class="js-form" action=""  method="" id="form_1">
+    
+                <div class="form-group_1">
+                    <input type="text" class="input js-input js-input-login" name="login" placeholder="Електронна пошта">
+                </div>
+
+                <div class="form-group_2">
+                    <input type="password" class="input js-input js-input-password" name="password" placeholder="Пароль" >
+                </div>
+
+                <div class="form-group_3">
+                    <select name="region">
+                        <option value="0">Оберіть сервер</option>
+                        <option value="1">Europe</option>
+                        <option value="2">Asia</option>
+                        <option value="3">America</option>
+                        <option value="4">TW, HK, MO</option>
+                    </select>
+                </div>
+                <div class="form-bth">
+                    <input class="bth-reg" type="submit" value="Зареєструватися">
+                </div>
+                <div>
+                    <a class="down1">
+                        Маєте аккаунт?
+                    </a>
+                    <a class="link1" href="form.html">
+                        Увійти
+                    </a>
+                </div>
+        </div>
+        <footer class="footer">
+            <div>
+                <div style="display: flex; flex-direction: row;">
+                    <a class="fcont1" href="#">Політика конфіденційності</a>
+                    <a class="fcont1" href="#">Служба підтримки</a>
+                    <a class="fcont1" href="#">Умови обслуговування</a>
+                </div>
+                <div><a class="fcont2" href="#">Інформація про розробників та компанію</a></div>
+            </div>
+            <div class="copyright">
+                <div class="copyright__text">
+                    <div>Copyright © 2023 GenshinGame. All Rights Reserved</div>
+                    <div>Made <span>by Olga Solohina</span></div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
